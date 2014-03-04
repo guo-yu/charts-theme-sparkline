@@ -1,0 +1,26 @@
+{
+  "name": "charts-theme-sparkline",
+  "version": "0.0.1",
+ "view engine": "jade",
+ "static": "./static",
+  "description": "the chartjs solution of jquery Sparklines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/turingou/charts-theme-sparkline.git"
+  },
+  "keywords": [
+    "charts",
+    "chart",
+    "sparkline"
+  ],
+  "author": "turing <o.u.turing@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/turingou/charts-theme-sparkline/issues"
+  },
+  "homepage": "https://github.com/turingou/charts-theme-sparkline"
+}
