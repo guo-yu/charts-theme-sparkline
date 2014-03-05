@@ -1,8 +1,8 @@
 {
   "name": "charts-theme-sparkline",
   "version": "0.0.1",
- "view engine": "jade",
- "static": "./static",
+  "view engine": "jade",
+  "static": "./static",
   "description": "the chartjs solution of jquery Sparklines",
   "main": "index.js",
   "scripts": {

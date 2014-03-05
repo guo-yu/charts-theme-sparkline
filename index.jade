@@ -1,6 +1,11 @@
 html
   head
     title #{Theme.name} - powered by #{sys.name} v#{sys.version}
+    style.
+        *,body {
+            margin: 0;
+            padding: 0;
+        }
   body
     span.inlinesparkline !{data}
     script(src="#{static}/jquery-1.8.3.min.js")
