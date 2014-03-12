@@ -1,20 +1,26 @@
 ## charts-theme-sparkline ![npm](https://badge.fury.io/js/charts-theme-sparkline.png)
 
-the chartjs solution of jquery Sparklines
+a jquery Sparklines solution of Charts.
 
 ### Installation
 ````
-$ [sudo] npm install charts-theme-sparkline
+$ npm install charts-theme-sparkline
 ````
-
 
 ### Example
-````javascript
-var charts-theme-sparkline = require('charts-theme-sparkline');
-````
+Make sure your Charts server is running and visit:
 
-### API
-check this file: `index.js`
+#### Embed Mode
+```
+http://localhost:3001/sparkline/1x1/10,401,42,72,125,90,10,20,102,120,300,12
+```
+
+#### Debug Mode
+```
+http://localhost:3001/sparkline/1x1/10,401,42,72,125,90,10,20,102,120,300,12?preview=true
+```
+
+**TIPS:** `1x1` means auto-width and auto-height
 
 ### Contributing
 - Fork this repo
